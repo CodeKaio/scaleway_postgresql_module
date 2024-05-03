@@ -1,4 +1,4 @@
-resource "scaleway_rdb_instance" "main" {
+resource "scaleway_rdb_instance" "this" {
   name           = var.instance_name
   node_type      = var.instance_type
   engine         = "PostgreSQL-15"
